@@ -1,0 +1,35 @@
+State Transition Testing is a black-box testing technique used to test systems that behave differently based on their current state and events/actions.
+
+It validates:
+
+Valid state changes
+Invalid state changes
+Correct responses to events in different states
+
+Components of State Transition Testing
+
+States – different conditions of the system
+
+Events – actions that trigger state changes
+
+Transitions – movement from one state to another
+
+Actions – output or behavior during transitions
+
+Example
+
+ATM Card System
+
+Current State	                       Event	                          Next State
+Idle	                            Insert card	                       Card Inserted
+Card Inserted	                    Enter correct                      PIN	Authenticated
+Card Inserted	                    Enter wrong PIN	                   Retry / Block
+Authenticated	                    Eject card	                       Idle
+
+This technique is used when:
+
+System behavior depends on sequence of events
+
+Application has multiple states
+
+Past actions affect current behavior
