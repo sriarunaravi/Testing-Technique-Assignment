@@ -1,0 +1,9 @@
+	Equivalence Partitioning (EP)	                                                                     Boundary Value Analysis (BVA)
+1.A black-box testing technique that divides input data into equivalence                   A black-box testing technique that focuses on testing boundary values of input ranges
+  classes where all values are expected to behave the same.
+                                
+2.Reduce the number of test cases by selecting one                                         Detect defects that occur at the edges of input ranges
+  representative value from each partition
+3.Any value within the partition	                                                         Values at, just below, and just above the boundary
+4.Finds general input validation errors                                                  	 Finds off-by-one errors, range errors
+5.Can be used independently	                                                               Usually derived from equivalence partitions
